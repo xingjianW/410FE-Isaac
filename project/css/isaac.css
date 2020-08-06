@@ -1,0 +1,25 @@
+/* main module*/
+.main{
+    width:1200px;
+    height: 652px;
+    background-color: rgb(61, 60, 60);
+    margin-left: auto;
+    font-size: 2em;
+}
+.character_intro{
+    float: left;
+    width: 800px;
+    height: 652px;
+
+}
+.character_form{
+    float: right;
+    width: 400px;
+    height: 652px;
+}
+.character_form tr th{
+    height: 30px;
+}
+.character_form tr td{
+    height: 30px;
+}
