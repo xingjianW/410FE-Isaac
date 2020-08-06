@@ -1,0 +1,104 @@
+/* main module*/
+.main{
+    width:1200px;
+    height: 652px;
+    background-color: dimgray;
+    margin-left: auto;
+
+}
+/* focus picture*/
+.focus {
+    float: left;
+    width: 900px;
+    height: 652px;
+    background-color: rgb(49, 43, 43);
+
+}
+.focus ul li img{
+    height: 652px;
+    width: 900px;
+}
+/* bulletin */
+.bulletin{
+    float: right;
+    width: 300px;
+    height: 652px;
+    background-color: grey;
+
+}
+
+/*game_characters module*/
+.game_characters{
+    overflow: hidden;
+    width: auto;
+    height: 200px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.game_characters ul li{
+    float: left;
+    width: 73px;
+    height: 66px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.game_characters ul li i{
+    display: inline-block ;
+    width: 73px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    
+}
+
+/*game_bosses module*/
+.game_bosses{
+    overflow: hidden;
+    width: auto;
+    height: 200px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.game_bosses ul li{
+    float: left;
+    width: 73px;
+    height: 66px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.game_bosses ul li i{
+    display: inline-block ;
+    width: 73px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+   
+}
+
+/*game_items module*/
+.game_items{
+    width: auto;
+    height: 252px;
+    background-color: khaki;
+}
+.game_items ul li{
+    float: left;
+    width: 59px;
+    height: 62px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.game_items ul li i{
+    display: inline-block ;
+    width: 59px;
+    height: 62px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    
+}

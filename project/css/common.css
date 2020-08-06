@@ -1,0 +1,143 @@
+/*type page*/
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+.style_gray{
+    color: gray;
+}
+.word_font{
+    font-size: 3em;
+}
+
+/* Quick navigation module */
+.shortcut {
+    height: 100px;
+    line-height: 100px;
+    background-color: black;
+}
+
+.shortcut ul li{
+    float: left;
+}
+.shortcut ul a:hover{
+    color: rgb(58, 66, 66);
+}
+.shortcut .fr ul li:nth-child(even){
+    width: 3px;
+    height: 80px;
+    background-color: gray;
+    margin: 10px 15px 0;
+}
+
+/* nav module*/
+
+.nav{
+    background-color: rgb(29, 34, 34);
+    margin: auto;
+    height: 68px;
+    width: 100%;
+}
+.nav ul{
+    width: 40%;
+    margin: auto;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+}
+.nav ul li a {
+    color: white;
+    display:block;
+    height: 68px;
+    line-height: 68px;
+    padding: 0 25px;
+    text-decoration: none;
+    font-size: 2em;
+}
+.nav ul .dropbtn{
+    display:inline-block;
+    height: 68px;
+    line-height: 68px;
+    color: white;
+    text-align: center;
+    padding: 0 25px;
+    text-decoration: none;
+    font-size: 2em;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content
+  {
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropdown-content a
+  {
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+  }
+  
+  .dropdown-content a:hover {background-color: #494444}
+  
+  .dropdown:hover .dropdown-content
+  {
+    background-color: rgb(58, 66, 66);
+    display:block;
+  }
+
+  
+.nav ul li a:hover{
+    background-color: rgb(58, 66, 66);
+}
+
+/* footer module*/
+.footer{
+    height: 400px;
+    background-color: rgb(54, 45, 45);
+}
+
+.mod_describle{
+    height: 80px;
+    font-size: 2em;
+    color: ivory;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 1px solid darkgoldenrod;
+}
+.mod_adding{
+    height: 200px;
+    border-bottom: 1px solid darkgoldenrod;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.mod_adding dl{
+    float: left;
+    width: 400px;
+    text-align: center;
+    
+}
+.mod_adding dl dt{
+    font-size: 26px;
+    color:  rgb(235, 208, 208);
+    margin-bottom: 10px;
+
+}
+.mod_adding dl dd{
+    font-size: 20px;
+    color: rgb(235, 208, 208);
+}

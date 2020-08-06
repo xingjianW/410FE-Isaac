@@ -1,0 +1,50 @@
+/*Clear the inside and outside margins of all our labels*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Italics do not slant*/
+em,i {
+    font-style: normal;
+}
+
+/*Remove the Li dots*/
+li {
+    list-style: none;
+}
+
+/* Remove the blank space in the picture */
+img {
+    vertical-align: middle;
+}
+
+/*The mouse changes to visual mode through the buttons*/
+button {
+    cursor: pointer;
+}
+/*Unlink links*/
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+button, input{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(../images/apps.51295.64916554688590942.e844bff5-3847-4e34-af5e-3260b1384094.jpeg);
+    font: 12px/1.5 Arial, Helvetica, sans-serif;
+}
+/*clear float*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+.clearfix{
+    *zoom: 1;
+}
