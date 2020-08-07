@@ -4,10 +4,11 @@
     font-size: 15px;
   }
   .content {
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
   }
   .img{
       width: 130%;
@@ -38,7 +39,7 @@
     background-position: center center;
     backface-visibility: hidden;
     transition: 1s;
-    background-color: rgb(153, 196, 238);
+    background-color: rgb(61, 60, 60);
     font-weight: bolder;
     color: #fff;
     border-radius: 5px;
@@ -50,13 +51,14 @@
     top:0;
     left: 0;
     color: #fff;
-    background-color: rgb(153, 196, 238);
+    background-color: rgb(61, 60, 60);
     text-indent: 2em;
     transform: rotateY(-180deg);
     -webkit-transform: rotateY(-180deg);
     backface-visibility: hidden;
     transition: 1s;
     border-radius: 5px;
+    line-height: 25px;
 
 }
  .reversible:hover .card.tile-front{
